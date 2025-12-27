@@ -6,8 +6,14 @@
   <title>Pachchigar Jewellers (Ashokbhai) | Website Under Upgrade</title>
 
   <!-- SEO Meta -->
-  <meta name="description" content="Pachchigar Jewellers (Ashokbhai) – Trusted gold, diamond & polki jewellery showroom in Surat. Our website is currently under upgrade. Contact us on WhatsApp for enquiries." />
+  <meta name="description" content="Pachchigar Jewellers (Ashokbhai) – Trusted gold, diamond & polki jewellery showroom in Surat and Ahmedabad. Our website is currently under upgrade. Contact us on WhatsApp for enquiries." />
   <meta name="robots" content="index, follow" />
+
+  <!-- Favicon -->
+  <link rel="icon" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="./assets/site.webmanifest">
+
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
@@ -78,23 +84,51 @@
       box-shadow: 0 6px 14px rgba(181,135,76,0.35);
     }
 
-    .location {
+    /* Locations */
+    .locations {
+      margin-top: 28px;
+    }
+
+    .locations p {
       font-size: 16px;
-      margin-top: 20px;
+      margin-bottom: 12px;
       color: #6b5a52;
+    }
+
+    .location-buttons {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .location-buttons a {
+      border: 1px solid #b5874c;
+      color: #b5874c;
+      padding: 10px 18px;
+      border-radius: 30px;
+      font-size: 15px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .location-buttons a:hover {
+      background: #b5874c;
+      color: #ffffff;
+      box-shadow: 0 6px 14px rgba(181,135,76,0.35);
     }
   </style>
 </head>
 
 <body>
   <div class="container">
-    
-    <!-- FIXED LOGO -->
+
+    <!-- Logo -->
     <img 
-  src="./assets/logo.png"
-  alt="Pachchigar Jewellers (Ashokbhai) Logo"
-  class="logo"
-/>
+      src="./assets/logo.png"
+      alt="Pachchigar Jewellers (Ashokbhai) Logo"
+      class="logo"
+    />
 
     <h1>Pachchigar Jewellers (Ashokbhai)</h1>
 
@@ -105,15 +139,36 @@
 
     <p>We’ll be live again very soon.</p>
 
+    <!-- WhatsApp CTA -->
     <div class="cta">
       <p>For jewellery inquiries:</p>
-      <a href="https://wa.me/919512500744" target="_blank" aria-label="Chat on WhatsApp">
+      <a 
+        href="https://wa.me/919512500744" 
+        target="_blank" 
+        aria-label="Chat with Pachchigar Jewellers on WhatsApp">
         Chat on WhatsApp
       </a>
     </div>
 
-    <div class="location">
-      Visit our Surat showroom anytime.
+    <!-- Location Redirection -->
+    <div class="locations">
+      <p>Visit our showrooms:</p>
+
+      <div class="location-buttons">
+        <a 
+          href="https://maps.app.goo.gl/Hjzja6QMpzXz3acp6"
+          target="_blank"
+          aria-label="Pachchigar Jewellers Surat Showroom Location">
+          📍 Surat Showroom
+        </a>
+
+        <a 
+          href="https://maps.app.goo.gl/9UNbwg4SJuoKVkEr7"
+          target="_blank"
+          aria-label="Pachchigar Jewellers Ahmedabad Showroom Location">
+          📍 Ahmedabad Showroom
+        </a>
+      </div>
     </div>
 
   </div>
