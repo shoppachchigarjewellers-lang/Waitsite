@@ -11,9 +11,8 @@
 
   <!-- Favicon -->
   <link rel="icon" sizes="32x32" href="/assets/favicon-32x32.png">
-<link rel="icon" sizes="16x16" href="/assets/favicon-16x16.png">
-  <link rel="manifest" href="./assets/site.webmanifest">
-
+  <link rel="icon" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
@@ -21,20 +20,20 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
+      padding: 20px;
       font-family: 'Playfair Display', serif;
       background: linear-gradient(135deg, #f5efe7, #fdfdfb);
       color: #3d2f2a;
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      min-height: 100vh;
       text-align: center;
     }
 
     .container {
       max-width: 520px;
-      padding: 50px 40px;
+      padding: 34px 32px;
       background: rgba(255, 255, 255, 0.92);
       border-radius: 26px;
       box-shadow: 0 15px 35px rgba(0,0,0,0.12);
@@ -42,35 +41,35 @@
     }
 
     .logo {
-      width: 160px;
+      width: 150px;
       display: block;
-      margin: 0 auto 25px;
+      margin: 0 auto 16px;
       filter: drop-shadow(0 6px 10px rgba(0,0,0,0.15));
     }
 
     h1 {
-      font-size: 36px;
-      margin-bottom: 12px;
-      letter-spacing: 1px;
+      font-size: 32px;
+      margin-bottom: 10px;
+      letter-spacing: 0.8px;
       font-weight: 700;
       color: #b5874c;
     }
 
     p {
-      font-size: 18px;
-      margin-bottom: 18px;
-      line-height: 1.6;
+      font-size: 17px;
+      margin-bottom: 12px;
+      line-height: 1.55;
       color: #5a4a44;
     }
 
     .cta {
-      margin-top: 25px;
+      margin-top: 16px;
     }
 
     .cta a {
       background: #b5874c;
       color: #ffffff;
-      padding: 12px 26px;
+      padding: 11px 24px;
       border-radius: 40px;
       font-weight: 600;
       text-decoration: none;
@@ -86,18 +85,18 @@
 
     /* Locations */
     .locations {
-      margin-top: 28px;
+      margin-top: 20px;
     }
 
     .locations p {
-      font-size: 16px;
-      margin-bottom: 12px;
+      font-size: 15px;
+      margin-bottom: 10px;
       color: #6b5a52;
     }
 
     .location-buttons {
       display: flex;
-      gap: 12px;
+      gap: 10px;
       justify-content: center;
       flex-wrap: wrap;
     }
@@ -105,9 +104,9 @@
     .location-buttons a {
       border: 1px solid #b5874c;
       color: #b5874c;
-      padding: 10px 18px;
+      padding: 9px 16px;
       border-radius: 30px;
-      font-size: 15px;
+      font-size: 14px;
       text-decoration: none;
       transition: all 0.3s ease;
     }
